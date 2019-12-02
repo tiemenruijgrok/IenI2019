@@ -8,25 +8,22 @@ function setup() {
 function draw() {
   noStroke();
   fill('thistle');
-  translate(50,50);
-  rect(0,0,100,100);
-  
-  translate(140,0);
+  translate(50,50); 
   rect(0,0,100,100);
   translate(140,0);
   rect(0,0,100,100);
-  
   translate(140,0);
-  Push();
+  rect(0,0,100,100);
+  translate(140,0);
+  push();
+  translate(0,40);
   stroke('cornsilk');
   strokeWeight(20);
   fill('teal');
-  translate(0,40);  
   rect(0,0,100,100);  
-  pop();
-  // EINDE aanpassing
   translate(140,0);
   rect(0,0,100,100);
+  pop();
   translate(140,0);
   rect(0,0,100,100);  
   
