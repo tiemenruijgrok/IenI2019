@@ -4,13 +4,13 @@ function setup() {
   textFont("Verdana");
   textSize(14);
   noStroke();
-  background('lavender');
   //noLoop();
+  background('lavender');
 }
 
 function draw() {
   fill('wheat');
-  Rect(0,0,width,30);  
+  rect(0,0,width,30);  
   fill('black');
   text("mouseX:" + round(mouseX) + " mouseY:"+round(mouseY),10,20);
   fill('indianred');

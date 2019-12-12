@@ -20,8 +20,8 @@ function draw() {
   text("positie A = " + horizontaalA + " positie B = " + horizontaalB,10,30);
   fill('dodgerblue');
   ellipse(horizontaalA,verticaal,200);
+  horizontaalA += 2;
   fill('darkred');
   ellipse(horizontaalB,verticaal,200);  
-  horizontaalA += 2;
   horizontaalB += 1;  
 }
