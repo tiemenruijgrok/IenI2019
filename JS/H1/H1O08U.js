@@ -16,7 +16,7 @@ function draw() {
   uitkomst = variabeleA*variabeleB;
   // Schrijf de rekensom op het scherm
   
-  text("De som " + variabeleA + " x "+variabeleB + " heeft als uitkomst: " + uitkomst,50,50);
+  text("De som " + variabeleA + " x " +variabeleB + " heeft als uitkomst: " + uitkomst,50,50);
 
   translate(50,100);
   fill('dodgerblue');
