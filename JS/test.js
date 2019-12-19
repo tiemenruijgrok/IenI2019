@@ -7,8 +7,17 @@ function setup() {
 
 function draw() {
   noStroke();
-  fill('steelblue');
-  ellipse(0,0,800);
-  fill('deepskyblue');
-  ellipse(450,450,400);
+  fill('blue');
+
+
+for (var n = 0;n < 5;n++) 
+    rondjes();
+    
+    translate(100,0);
+}
+
+function rondjes() {
+    push();
+    ellipse(50,225,100)
+    pop();
 }
