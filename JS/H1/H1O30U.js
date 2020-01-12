@@ -14,7 +14,7 @@ function draw() {
       else {
         fill('white');
       }
-      rect(kolom,rij,50,50);
+      rect(rij,kolom,50,50);
     }
   }
 }
